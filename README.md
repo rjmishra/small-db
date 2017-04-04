@@ -4,7 +4,7 @@ Project aims to develop small database system in C. It is only for educational p
 We have created following structure to be followed for database file to store data
 
 DB Metadata
-	-------------------------------------------------------------------------
+-------------------------------------------------------------------------
 	|2 	BYTES  	MAGIC NUMBER(AB)                                         
 	|1 	BYTE 	VERSION                                                  
 	|1 	BYTE  	DB Metadata Size(36)                                     
@@ -38,7 +38,7 @@ DB Metadata
 	-
 	-
 	-
-  |													
+  	|													
 	-------------------------------------------------------------------------
 	
 	
