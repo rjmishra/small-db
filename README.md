@@ -2,9 +2,10 @@
 Project aims to develop small database system in C. It is only for educational purpose.
 
 We have created following structure to be followed for database file to store data
-
-DB Metadata
 -------------------------------------------------------------------------
+
+	DB Metadata
+	-------------------------------------------------------------------------
 	|2 	BYTES  	MAGIC NUMBER(AB)                                         
 	|1 	BYTE 	VERSION                                                  
 	|1 	BYTE  	DB Metadata Size(36)                                     
@@ -63,5 +64,5 @@ DB Metadata
 	For floating numbers FLOAT(m,n)
 	The SIZE BYTE will store m,n. First 5 bits will be used for m,
 	and last 3 bits for n. e.g. FLOAT(4,5): 00100101 
-  
-  Based on the above we developed program in C, to create, drop and update the tables.
+	
+Based on the above we developed program in C, to create, drop and update the tables.
